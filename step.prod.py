@@ -5,7 +5,7 @@ from sinara.step import StepReport as sr
 sg.git_reset()
 
 try:
-    step = Step(step_params_file_globs="params/step_params.json",
+    step = Step(step_params_file_globs="params/*.json",
            env_name="prod")
     for notebook in step.notebooks:
         notebook.run()
