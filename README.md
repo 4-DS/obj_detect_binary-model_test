@@ -1,3 +1,4 @@
+![interface model_pack_interface.drawio](./imgs/model_pack_interface.drawio.png)
 # step_template
 
 Prerequisites

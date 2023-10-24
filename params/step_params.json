@@ -2,23 +2,32 @@
     "pipeline_params":
     {
         "env_name":"user",
-        "pipeline_name":"pipeline",
-        "zone_name":"zone",
-        "X": "something"
+        "pipeline_name":"yolox_mmdet",
+        "zone_name":"test"
     },
     "step_params":
     {
-        "Y": "something_else",
-        "step_name": "step_template"
+        "step_name": "3_model_pack"
     },
     "substeps_params":
     [
         {
-            "substep_name":"substep_full.ipynb",
-            "params":
+            "substep_name":"0_configure_pack.ipynb",
+            "substep_params":
             {
-                "param1":"None1",
-                "param2":"None2"
+                "type_export":"torch_export"
+            }
+        },
+        {
+            "substep_name":"1_export_onnx.ipynb",
+            "substep_params":
+            {                
+            }
+        },
+        {
+            "substep_name":"2_pack_bento.ipynb",
+            "substep_params":
+            {
             }
         }
     ]

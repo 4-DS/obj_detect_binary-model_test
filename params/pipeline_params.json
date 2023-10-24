@@ -2,8 +2,7 @@
     "pipeline_params":
     {
         "env_name":"prod",
-        "pipeline_name":"pipeline",
-        "zone_name":"zone",
-        "X": "something"
+        "pipeline_name":"yolox_mmdet",
+        "zone_name":"test"
     }
 }
