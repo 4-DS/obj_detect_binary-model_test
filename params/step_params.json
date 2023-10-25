@@ -7,7 +7,7 @@
     },
     "step_params":
     {
-        "step_name": "3_model_pack"
+        "step_name": "model_pack"
     },
     "substeps_params":
     [
