@@ -10,22 +10,9 @@
         "step_name": "model_pack"
     },
     "substeps_params":
-    [
+    [        
         {
-            "substep_name":"0_configure_pack.ipynb",
-            "substep_params":
-            {
-                "type_export":"torch_export"
-            }
-        },
-        {
-            "substep_name":"1_export_onnx.ipynb",
-            "substep_params":
-            {                
-            }
-        },
-        {
-            "substep_name":"2_pack_bento.ipynb",
+            "substep_name":"model_pack.ipynb",
             "substep_params":
             {
             }

@@ -1,8 +1,0 @@
-{
-    "pipeline_params":
-    {
-        "env_name":"prod",
-        "pipeline_name":"yolox_mmdet",
-        "zone_name":"test"
-    }
-}
