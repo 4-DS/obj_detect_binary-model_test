@@ -23,9 +23,7 @@ bento_service, packaged model service via BentoML (saved as a zip archive)
 ### Create a directory for the project (or use an existing one)
 ```
 mkdir yolox_mmdet
-cd yolox_mmdetThis CV-Pipeline component is designed to convert the model into various formats (Onnx, OpenVino, TensorRT, etc.) and package the model in BentoService.
-When using the Binary Service, only the weights and the necessary files - configs for launching the service - are packaged.
-When using the REST API, in addition to packaging in the artifact bentoservice, the rest method predict, test_data, test_result is described
+cd yolox_mmdet
 ```  
 
 ### clone the repository: model_pack
