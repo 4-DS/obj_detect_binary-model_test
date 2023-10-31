@@ -13,7 +13,7 @@ import json
 @artifacts([
     TextFileArtifact('model_name'),
     BinaryFileArtifact('model', file_extension=".pth"),
-    BinaryFileArtifact('config', file_extension=".json"),
+    BinaryFileArtifact('config', file_extension=".py"),
     BinaryFileArtifact('test_image', file_extension='.jpg'),
     TextFileArtifact('service_version',
                      file_extension='.txt',
