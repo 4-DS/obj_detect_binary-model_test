@@ -2,7 +2,7 @@
     "pipeline_params":
     {
         "env_name":"user",
-        "pipeline_name":"yolox_mmdet",
+        "pipeline_name":"obj_detect",
         "zone_name":"test"
     },
     "step_params":
