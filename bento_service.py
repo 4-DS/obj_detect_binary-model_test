@@ -22,25 +22,29 @@ import json
 
 
 class Model_YOLOX_Pack(BentoService):
-    """    
+    """
+    There is no predict method since this Bentoservice only stores artifacts
     """ 
     
     @api(input=JsonInput())
     def model_version(self, *args):
         """
-        Run ID компонента, создавшего данную версию сервиса.
+        Run ID of step which creates this bentoservice
         """
         return self.artifacts.model_version
 
     @api(input=JsonInput())
     def service_version(self, *args):
         """
-        Версия данного Bento сервиса.
+        Version of this Bentoservice
         """
         return self.version
         
     @api(input=JsonInput())
-    def test_data(self, *args): # return some data for running a test
+    def test_data(self, *args):
+        """
+        Return some data for running a test
+        """
         return self.artifacts.test_image
     
 
