@@ -21,7 +21,7 @@ import json
 ])
 
 
-class Model_YOLOX_Pack(BentoService):
+class ObjDetect_Pack(BentoService):
     """
     There is no predict method since this Bentoservice only stores artifacts
     """ 
