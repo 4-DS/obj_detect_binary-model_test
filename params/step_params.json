@@ -2,7 +2,7 @@
     "pipeline_params":
     {
         "env_name":"user",
-        "pipeline_name":"obj_detect",
+        "pipeline_name":"obj_detect_binary",
         "zone_name":"test"
     },
     "step_params":
