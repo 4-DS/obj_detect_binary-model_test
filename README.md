@@ -13,15 +13,15 @@ Input data for step CV-Pipeline: model_test
 - **bento_service**
   BentoArchive file from pack step
 
-## How to run a step CV-Pipeline: model_train
+## How to run a step CV-Pipeline: model_test
 
-### clone the repository: model_train
+### clone the repository: model_test
 ```
 git clone --recurse-submodules https://github.com/4-DS/obj_detect_binary-model_test.git
 cd obj_detect_binary-model_test
 ```  
 
-### run step CV-Pipeline:model_train
+### run step CV-Pipeline: model_test
 ```
 python step.dev.py
 ```  
