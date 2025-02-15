@@ -1,0 +1,21 @@
+{
+    "pipeline_params":
+    {
+        "env_name":"user",
+        "pipeline_name":"obj_detect_binary",
+        "zone_name":"test"
+    },
+    "step_params":
+    {
+        "step_name": "model_test"
+    },
+    "substeps_params":
+    [        
+        {
+            "substep_name":"model_test.ipynb",
+            "substep_params":
+            {
+            }
+        }
+    ]
+}
